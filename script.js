@@ -8,7 +8,10 @@ var endGamePage = function() {
     var totalscore = 0;
 
     document.querySelector("#ticking-audio").pause();
+    document.querySelector("#ticking-audio").currentTime = 0;
     document.querySelector("#thriller-audio").pause();
+    document.querySelector("#thriller-audio").currentTime = 0;
+
     //removes the play game Nodes/Elements
     var playNodes = document.querySelector("#play-container");
     playNodes.parentNode.removeChild(playNodes);
