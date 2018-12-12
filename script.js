@@ -7,6 +7,7 @@ var timer = 60;
 var endGamePage = function() {
     var totalscore = 0;
 
+    document.querySelector("#endgame-audio").play();
     document.querySelector("#ticking-audio").pause();
     document.querySelector("#ticking-audio").currentTime = 0;
     document.querySelector("#thriller-audio").pause();
@@ -130,7 +131,7 @@ var createPlayArea = function(){
         } else if (score === 100){
             clearInterval(countdown);
             endGamePage();
-        } else if(timer <= 30) {
+        } else if(timer <= 20) {
             document.querySelector("#thriller-audio").play();
         }
 
@@ -160,7 +161,6 @@ var randomize = function() {
 
 document.addEventListener('keydown', (event) => {
     gamePlay(event) });
-
 
 var gamePlay = function (input) {
     var keyName = input.key;
@@ -197,7 +197,6 @@ var emptyTiles = function () {
     randomize();
 }
 
-
 //set attributes function (for multiple names)
 function setAttributes(element, attribute) {
   for(var key in attribute) {
@@ -207,6 +206,7 @@ function setAttributes(element, attribute) {
 
 //click start go to createPlayArea function
 window.onload = function(){
+
     document.querySelector("#startbtn").
         addEventListener("click", function(){
             var introNodes = document.querySelector("#intro");
@@ -214,4 +214,8 @@ window.onload = function(){
 
             createPlayArea();
         })
+
 }
+
+
+
