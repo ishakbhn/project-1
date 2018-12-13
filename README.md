@@ -7,7 +7,9 @@ HTML,CSS,JavaScript.
 ### Approach taken:
 
 The idea of having a typewriter kind of game.
+
 To implement whatever that has been thought like Function,loops, Event Listener, Callback to build your own project.
+
 Seeking feedbacks on what changes can be made to improve the project, in terms of process or game design.
 
 ### Instruction:
@@ -16,10 +18,15 @@ URL link: https://ishakbhn.github.io/project-1/
 
 ### How to play:
   1- Use Q,W,E,I,O,P on the keyboard to play game.
+  
   2- Type each letter displayed on the screen in sequence.
+  
   3- Time limit of 60 seconds.
+  
   4- 10pts for completion of each round.
+  
   5- Complete all rounds in less than 60 seconds will be awarded with bonus pts:
+  
       ⁃ 1 to 20 secs, 100 bonus pts.
 	    ⁃	21 to 40 secs, 60 bonus pts.
 	    ⁃	41 to 58 secs, 20 bonus pts.
