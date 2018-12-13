@@ -28,8 +28,8 @@ URL link: https://ishakbhn.github.io/project-1/
   5- Complete all rounds in less than 60 seconds will be awarded with bonus pts:
   
       ⁃ 1 to 20 secs, 100 bonus pts.
-      ⁃	21 to 40 secs, 60 bonus pts.
-      ⁃	41 to 58 secs, 20 bonus pts.
+      ⁃ 21 to 40 secs, 60 bonus pts.
+      ⁃ 41 to 58 secs, 20 bonus pts.
       
  - Click the start button to play.
  - Complete it within 60 seconds.
