@@ -1,20 +1,20 @@
 # project-1
 
-##Technologies:
+### Technologies:
 
 HTML,CSS,JavaScript.
 
-##Approach taken:
+### Approach taken:
 
 The idea of having a typewriter kind of game.
 To implement whatever that has been thought like Function,loops, Event Listener, Callback to build your own project.
 Seeking feedbacks on what changes can be made to improve the project, in terms of process or game design.
 
-##Instruction:
+### Instruction:
 
 URL link: https://ishakbhn.github.io/project-1/
 
-##How to play:
+### How to play:
   1- Use Q,W,E,I,O,P on the keyboard to play game.
   2- Type each letter displayed on the screen in sequence.
   3- Time limit of 60 seconds.
@@ -31,9 +31,7 @@ URL link: https://ishakbhn.github.io/project-1/
  - At the end of the game a summary of time completed, game score, bonus score and total score will be displayed.
  - Click the "play again button" to play again.
 
-##Unsolved problems:
+### Unsolved problems:
 
 Unable to do autoplay or play audio on the start page of the game.
 To make the game more interactive and more challenging.
-
-
